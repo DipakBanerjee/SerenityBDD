@@ -1,0 +1,6 @@
+if we don't want to start the app on port 8080: -
+>java -jar rest.jar --server.port=9999
+//provided no other app is running on this port
+
+Serenity BDD uses maven-failsafe-plugin to execute the tests
+
